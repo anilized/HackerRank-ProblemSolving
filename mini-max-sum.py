@@ -7,8 +7,8 @@ Then print the respective minimum and maximum values
 as a single line of two space-separated long integers.
 
 a = [1,2,3,4,5]
-min -> [1,2,3,4] = 10 -> [1:]
-max -> [2,3,4,5] = 14
+min -> [1,2,3,4] = 10 -> [:-1]
+max -> [2,3,4,5] = 14 -> [1:]
 
 """
 
