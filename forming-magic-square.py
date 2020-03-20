@@ -1,6 +1,3 @@
-
-
-
 def evaluate(s):
     pre = [
             [[8, 1, 6], [3, 5, 7], [4, 9, 2]],
@@ -21,5 +18,6 @@ def evaluate(s):
                     total += max([i, j]) - min([i, j])
         totals.append(total)
     return min(totals)
+
     
 
