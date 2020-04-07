@@ -1,6 +1,8 @@
 # return the count
 # count s[:mod]
 
+
+
 def repeatedString(s, n):
     length = len(s)
     mod = n % length
